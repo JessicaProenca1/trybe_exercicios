@@ -1,0 +1,14 @@
+.header {
+    background-color: blueviolet;
+    color: blue;
+    height: 30px;
+    /* position: fixed; */
+}
+
+
+
+.menu li {
+    /* preciso colocar alem da class o item, no caso o li, para que o inline funcione */
+    background-color: blue;
+    display: inline;
+}
