@@ -1,24 +1,36 @@
 .header {
-    position: fixed; /* pro header ficar fixo e se mexer junto com a pagina */
-    display: flex; /* essas 3 linhas são para deixar o titulo centralizado vertical e horizontal */
-    justify-content: center; /* essas 3 linhas são para deixar o titulo centralizado vertical e horizontal */
-    align-items: center; /* essas 3 linhas são para deixar o titulo centralizado vertical e horizontal */
+    position: fixed;
+    /* pro header ficar fixo e se mexer junto com a pagina */
+    display: flex;
+    /* essas 3 linhas são para deixar o titulo centralizado vertical e horizontal */
+    justify-content: center;
+    /* essas 3 linhas são para deixar o titulo centralizado vertical e horizontal */
+    align-items: center;
+    /* essas 3 linhas são para deixar o titulo centralizado vertical e horizontal */
     height: 50px;
     width: 100%;
     top: 0;
     background-color: blue;
     font-size: 40px;
+    color: aliceblue;
 
 }
 
 .menu {
     background-color: aqua;
     margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    display: table;
+    justify-content: left;
+    align-items: center;
+    font-size: 25px;
 }
 
 .menu li {
     background-color: blueviolet;
     display: inline;
+    margin-right: 30px;
 }
 
 .article {
