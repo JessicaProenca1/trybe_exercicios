@@ -1,14 +1,23 @@
 .header {
-    background-color: blueviolet;
-    color: blue;
-    height: 30px;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    color: aliceblue;
+
 }
 
-
+.menu {
+    background-color: aqua;
+}
 
 .menu li {
-    /* preciso colocar alem da class o item, no caso o li, para que o inline funcione */
-    background-color: blue;
-    display: inline;
+    background-color: blueviolet;
+}
+
+.article {
+    background-color: brown;
+}
+
+.footer {
+    background-color: coral;
 }
