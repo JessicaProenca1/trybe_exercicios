@@ -10,3 +10,4 @@ console.log(indexOfPortfolio);
 menu.push('contato');
 
 console.log(menu);
+
