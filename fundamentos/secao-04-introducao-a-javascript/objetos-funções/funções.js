@@ -63,6 +63,83 @@ function triangulo(a,b,c){
   }
 }
 console.log(triangulo(90,40,50));
-// Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
 
-// Um ângulo será considerado inválido se não tiver um valor positivo.
+// Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.
+
+// Exemplo de palíndromo: arara // verificaPalindrome('arara') // Retorno esperado: true // verificaPalindrome('desenvolvimento') // Retorno esperado: false
+
+function verificaPalindrome (palavra) {
+  let contrario = palavra.split('').reverse().join('');
+  if (palavra == contrario){
+    return 'é um palindromo'
+  }
+  else {
+    return 'não é um palindromo'
+  }
+}
+
+console.log(verificaPalindrome('pedrita'));
+
+// Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+
+function maiorNumeroInteiro (numerosInteiros){  
+
+  return Math.max.apply(null,numerosInteiros);
+}
+
+let array2 = [2, 3, 6, 7, 10, 1];
+
+console.log(maiorNumeroInteiro(array2));
+
+
+// Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+function maiorNumeroInteiro (numerosInteiros){  
+
+  return Math.min.apply(null,numerosInteiros);
+}
+
+let array = [2, 4, 6, 7, 10, 0, -3];
+
+console.log(maiorNumeroInteiro(array));
+
+
+// Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+
+// Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
+
+// Valor esperado no retorno da função: Fernanda.
+
+let nomes2 = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+
+function maiorCaracter (){
+  let ;
+  return ;
+
+}
+console.log(maiorCaracter());
+
+// Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+// Array de teste: [2, 3, 2, 5, 8, 2, 3];.
+
+// Valor esperado no retorno da função: 2.
+
+// Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
+
+// Valor de teste: N = 5.
+
+// Valor esperado no retorno da função: 1+2+3+4+5 = 15.
+
+// Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
+
+// Valor de teste: 'trybe' e 'be'
+
+// Valor esperado no retorno da função: true
+
+// verificaFimPalavra('trybe', 'be');
+
+// Retorno esperado: true
+// verificaFimPalavra('joaofernando', 'fernan');
+
+// Retorno esperado: false
