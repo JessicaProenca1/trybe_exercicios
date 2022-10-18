@@ -5,10 +5,16 @@ console.log(split);
 
 
 
-const a = split.sort((a,b) => b.length - a.length)
-console.log(a)
+// const a = split.sort((a,b) => b.length - a.length)
+// console.log(a)
 
-console.log(split[0]);
+// console.log(split[0]);
+
+
+const b = split.sort();
+console.log(b)
+
+
 
 
 
