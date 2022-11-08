@@ -11,53 +11,50 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 
 ## Fundamentos do Desenvolvimento Web
-Seções
 
  - [x] Unix & Bash
 
-> Dia 01: Unix & Bash - Parte 1 
-Dia 02: Unix & Bash - Parte 2
+- Dia 01: Unix & Bash - Parte 1 
+- Dia 02: Unix & Bash - Parte 2
 
  - [x] Git & GitHub
 
-> Dia 01: Git - O que é e para que serve
-Dia 02: Git & GitHub - Entendendo os comandos
+- Dia 01: Git - O que é e para que serve
+- Dia 02: Git & GitHub - Entendendo os comandos
 
  - [x] Introdução à HTML & CSS
  
-> Dia 01: HTML & CSS - Estruturas de página
-Dia 02: HTML & CSS - Primeiros passos em CSS
-Dia 03: HTML & CSS - Seletores e posicionamento
-Dia 04: HTML Semântico
-Dia 05: Projeto - Lessons Learned
+- Dia 01: HTML & CSS - Estruturas de página
+- Dia 02: HTML & CSS - Primeiros passos em CSS
+- Dia 03: HTML & CSS - Seletores e posicionamento
+- Dia 04: HTML Semântico
+- Dia 05: Projeto - Lessons Learned
 
  - [x] Introdução à JavaScript
 
-> Dia 01: JavaScript - Primeiros passos
-Dia 02: JavaScript - Array e loop For
-Dia 03: JavaScript - Lógica de Programação e Algoritmos
-Dia 04:  JavaScript - Objetos e funções
-Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
-Dia 06: Projeto - Playground Functions
+- Dia 01: JavaScript - Primeiros passos
+- Dia 02: JavaScript - Array e loop For
+- Dia 03: JavaScript - Lógica de Programação e Algoritmos
+- Dia 04:  JavaScript - Objetos e funções
+- Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
+- Dia 06: Projeto - Playground Functions
 
  - [x] JavaScript: DOM, Eventos e Web Storage
- 
-
-> Dia 01: JavaScript - DOM e seletores
-Dia 02: JavaScript - Trabalhando com elementos
-Dia 03: JavaScript - Eventos
-Dia 04: JavaScript - Web Storage
-Dia 05: Projeto - Arte com Pixels
-Dia 06: Projetos Bônus
+- Dia 01: JavaScript - DOM e seletores
+- Dia 02: JavaScript - Trabalhando com elementos
+- Dia 03: JavaScript - Eventos
+- Dia 04: JavaScript - Web Storage
+- Dia 05: Projeto - Arte com Pixels
+- Dia 06: Projetos Bônus
 
  - [x] HTML e CSS: Forms, Flexbox e Responsivo
 
-> Dia 01: HTML & CSS - Forms
-Dia 02: Bibliotecas JavaScript e Frameworks CSS
-Dia 03: CSS Flexbox - Parte 1
-Dia 04: CSS Flexbox - Parte 2
-Dia 05: CSS Responsivo - Mobile First
-Dia 06: Projeto - Trybewarts
+- Dia 01: HTML & CSS - Forms
+- Dia 02: Bibliotecas JavaScript e Frameworks CSS
+- Dia 03: CSS Flexbox - Parte 1
+- Dia 04: CSS Flexbox - Parte 2
+- Dia 05: CSS Responsivo - Mobile First
+- Dia 06: Projeto - Trybewarts
 
  - [x] Introdução à JavaScript ES6 e Testes Unitários
 
