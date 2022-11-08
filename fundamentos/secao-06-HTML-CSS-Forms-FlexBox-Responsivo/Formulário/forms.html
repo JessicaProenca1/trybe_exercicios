@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrybeTrip</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body style="height: 100px; display: flex; justify-content: center;">
+
+  <main class="mh-100" style="width: 600px; height: 770px;">
+    <h1 class="text-bg-primary p-3" style="width:auto">Formulário TrybeTrip</h1>
+    <form>
+      <fieldset class="border border-primary">
+        <div class="container-md">
+        <legend>Preencha as suas informações</legend>
+        <div class="mb-3 container">
+          <label for="exampleFormControlInput1" class="form-label">Nome Completo:</label>
+          <input type="text" class="form-control border-success rounded-pill" id="exampleFormControlInput1"
+            placeholder="Digite o seu nome" style="--bs-border-opacity: .5;" />
+        </div>
+        <div class="mb-3 container">
+          <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+          <input type="email" class="form-control border-success rounded-pill " id="exampleFormControlInput1"
+            placeholder="Digite o seu e-mail" style="--bs-border-opacity: .5;" />
+        </div>
+
+        <fieldset class="row mb-3 container">
+          <legend class="col-form-label col-sm-2 pt-0">Escolha uma opção de viagem:</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                checked="">
+              <label class="form-check-label" for="gridRadios1">
+                Paris
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                New York
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+              <label class="form-check-label" for="gridRadios3">
+                Curitiba
+              </label>
+            </div>
+          </div>
+        </fieldset>
+
+
+        <div class="mb-3 container">
+          <label for="exampleFormControlTextarea1" class="form-label">O que você espera dessa viagem?</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" cols="30" maxlength="500"
+            id="oQueEsperar" placeholder="Digite aqui a sua resposta"></textarea>
+        </div>
+        <label for="data" class="container">Data da viagem</label>
+        <input type="date" id="data" class="form-control border-success rounded-pill">
+        <br>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label h6 pb-0 mb-3 text-danger border-bottom border-danger"
+            for="flexSwitchCheckDefault">Aceito os Termos de Uso</label>
+        </div>
+        <label for="options-outlined"></label>
+        <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+        <label class="btn btn-outline-success" for="success-outlined">Enviar</label>
+        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+        <label class="btn btn-outline-danger" for="danger-outlined">Apagar</label>
+      </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

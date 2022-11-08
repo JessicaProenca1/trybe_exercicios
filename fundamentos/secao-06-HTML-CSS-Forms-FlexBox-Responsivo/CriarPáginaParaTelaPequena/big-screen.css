@@ -1,0 +1,39 @@
+ /* Realize as seguintes tarefas:
+ 
+   
+
+ 
+ Agora, você vai criar outro breakpoint para telas grandes. Redimensione sua tela de novo para encontrar um novo breakpoint.
+ 
+ Crie uma nova media query no seu arquivo CSS usando a dimensão que você encontrou para telas grandes (por exemplo 1300px), e realize os seguintes ajustes dentro do breakpoint:
+ 
+ Altere a cor de fundo;
+ 
+ Ajuste o tamanho da fonte;
+ 
+ Ajuste as margens da página;
+ 
+ Adicione a propriedade max-width à página, para garantir que a largura das linhas não fique muito grande.
+  */
+
+ body {
+   background-color: aquamarine;
+   font-size: 35px;
+   margin: 100px;
+ }
+
+ h1 {
+   font-size: 60px;
+
+ }
+
+
+
+ section {
+   display: flex;
+   flex-flow: row wrap;
+ }
+
+ figure {
+   width: 50%;
+ }
