@@ -1,0 +1,21 @@
+{
+  "name": "secao01dia02",
+  "version": "1.0.0",
+  "description": "minha primeira api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sweetalert2": "^11.6.7",
+    "vite": "^3.2.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
